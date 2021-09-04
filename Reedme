@@ -1,0 +1,6 @@
+
+NEEDS SMFL LIBRARY:
+sudo apt-get install libsfml-dev
+
+To compile:
+g++ -o main  main.cpp Resources/Cube.cpp Resources/Song.cpp  -lsfml-system -lsfml-audio -lglut -lGL -lGLU
